@@ -18,6 +18,9 @@ function App() {
       setMode('dark');
       document.body.style.backgroundColor = '#343a40';
       document.body.style.color = 'white';
+      document.addEventListener("DOMContentLoaded", function() {
+        document.getElementById("textify").style.color = "red"; 
+      });
     } else {
       setMode('light');
       document.body.style.backgroundColor = 'white';
